@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html,body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    text-align: right;
+    background: url('..//imagens/plano-de-fundo.jpg') top center no-repeat;
+    background-size: cover;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    
+}
+
+section.smartphone {
+    position: absolute;    
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 305px;
+    height: 626px;
+    background: url('..//imagens/frame-iphone.png') top center no-repeat;
+}
+
+iframe {
+    position: absolute;
+    top: 12%;
+    left: 6%;
+    width: 269px;
+    height: 477px;
+    background: black;
+}
+
+section.icones > a > img {
+    width: 70px;
+    margin: 8px;
+    border-radius: 50% 50%;
+    box-sizing: border-box;
+    box-shadow: 3px -3px 3px  rgba(0, 0, 0, 0.407);
+
+}
+
+section.icones > a > img:hover {
+    transform: translate(-15px, 0px);
+    border: 3px solid white;
+    transition: transform 0.5s, border 0.5s ;
+}
