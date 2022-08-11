@@ -40,7 +40,8 @@ iframe {
     left: 6%;
     width: 269px;
     height: 477px;
-    background: black;
+    background: black url('..//imagens/tela-home.jpg') top center no-repeat;
+    background-size: cover;
 }
 
 section.icones > a > img {
